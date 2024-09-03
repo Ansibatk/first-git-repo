@@ -1,0 +1,44 @@
+/* .container{
+    background-color: yellow;
+}
+.container ul{
+    list-style-type: none;
+    display:flex;
+    justify-content:space-between;
+    
+} */
+/* Basic reset for margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the header and navbar */
+header {
+    background-color: #333; /* Dark background for the navbar */
+    padding: 10px 0; /* Padding to give some space around the navbar */
+}
+
+nav {
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center the content horizontally */
+}
+
+.navbar {
+    list-style-type: none; /* Remove default list bullets */
+    display: flex; /* Flexbox for the list items */
+}
+
+.navbar li {
+    margin: 0 15px; /* Horizontal margin for spacing between items */
+}
+
+.navbar a {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Font size */
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+}
